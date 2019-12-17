@@ -10,6 +10,7 @@
 		04F045911608E11E17C32EE15C8AE437 /* Pods-BlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A54FBF726A4D2BD02C869578EE0C6E /* Pods-BlinkingLabel_Example-dummy.m */; };
 		2855B4F6026ED1A9FA2BB526A4E15F99 /* BlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC1362021F7567EE4825E4FBBD9BBDC /* BlinkingLabel-dummy.m */; };
 		458F5457D0126B4CE676E22A60CFAD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		48E843B523A8B3F3001B5315 /* BlinkingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E843B423A8B3F3001B5315 /* BlinkingLabel.m */; };
 		6D2555172E3F90F5ED25778316E80562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		882FD0FE75D7BE721AF1B8E2EA58D24B /* BlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 539E4AD7A871579FE1EEFD267286AFE2 /* BlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BFB048AFA3606D6B877C55F59D37142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -45,6 +46,7 @@
 		35F88C3E137CFE84E598CD49E34400D8 /* Pods-BlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D608D728B202634275A36E939E9AB91 /* Pods-BlinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41827B58C5E22C460D587505CB0508B0 /* Pods-BlinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		48E843B423A8B3F3001B5315 /* BlinkingLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlinkingLabel.m; path = BlinkingLabel/Classes/BlinkingLabel.m; sourceTree = "<group>"; };
 		4AE338CC25B236C5C10442EBA2846BF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C0F82FA7986731BB3B63F46CEC0F8E1 /* Pods-BlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		514B0534866C3DD5AF6BE3A378739329 /* Pods-BlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				63E81DDFA2BCFB531B97366E7B114EE7 /* Pod */,
 				8FD727921FDB64C0934E3B3F7B79489B /* Support Files */,
+				48E843B423A8B3F3001B5315 /* BlinkingLabel.m */,
 			);
 			name = BlinkingLabel;
 			path = ../..;
@@ -362,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E843B523A8B3F3001B5315 /* BlinkingLabel.m in Sources */,
 				2855B4F6026ED1A9FA2BB526A4E15F99 /* BlinkingLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
